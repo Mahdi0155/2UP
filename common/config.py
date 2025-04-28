@@ -1,9 +1,12 @@
-BOT_TOKEN_MAIN = "توکن ربات اصلی"
-BOT_TOKEN_CHECKER = "توکن ربات چکر"
+# config/config.py
 
-OWNER_ID = 123456789  # آیدی عددی مدیر ربات
+BOT_MAIN_TOKEN = "توکن ربات اصلی اینجا"
+BOT_CHECKER_TOKEN = "توکن ربات چکر اینجا"
 
-CHANNEL_ID = -1001234567890  # آیدی عددی کانال (حتما با -100 شروع بشه)
-CHANNEL_LINK = "https://t.me/YourChannelLink"
+OWNER_ID = 123456789  # آیدی عددی مدیر
+CHANNEL_ID = -1001234567890  # آیدی عددی کانال (منفی شروع میشه)
+CHANNEL_LINK = "https://t.me/YourChannel"
 
-CHECKER_BOT_USERNAME = "checker_bot_username"  # بدون @
+WEBHOOK_DOMAIN = "https://yourserver.com"  # دامنه یا آی‌پی سرور
+WEBHOOK_PATH = "/webhook"
+WEBHOOK_URL = f"{WEBHOOK_DOMAIN}{WEBHOOK_PATH}"
